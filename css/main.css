@@ -5,3 +5,48 @@ html {
 fieldset {
   border: none;
 }
+
+header {
+  background-color: #70ad55;
+  color: #fff;
+  text-align: left;
+}
+
+input {
+  border-color: #6e8c62;
+}
+
+select {
+  border-color: #6e8c62;
+}
+
+hr {
+  border-color: #70ad55;
+  opacity: .3;
+}
+
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
+  border: none;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+[type="checkbox"] + label::before,
+[type="radio"] + label::before,
+textarea {
+  border-color: #6e8c62;
+}
+
+.margin-none {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+textarea {
+  height: 10rem;
+}
